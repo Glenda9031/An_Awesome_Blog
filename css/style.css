@@ -37,12 +37,12 @@ p {
     margin: 0.5rem 0;
 }
 
-a {
+.links {
     color: var(--orange);
     text-decoration: none;
 }
 
-a:hover {
+.links:hover {
     color: var(--accent-blue);
     text-decoration: underline;
 }
