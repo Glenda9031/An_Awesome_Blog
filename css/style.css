@@ -1,0 +1,48 @@
+:root {
+    --accent-blue: #2E7AD3;
+    --dark-blue: #104c90;
+    --orange: #FFE800;
+    --off-white: #F9F9F9;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--off-white);
+    color: var(--dark-blue);
+    width: 31.25rem;
+    margin: 0 auto;
+    padding: 2.8125rem 0 2.8125rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--accent-blue);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+}
+
+a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-blue);
+    text-decoration: underline;
+}
